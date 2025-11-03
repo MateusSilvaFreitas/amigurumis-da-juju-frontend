@@ -1,10 +1,11 @@
 import "./style.css";
 import Whatsapp from "../../assets/whatsapp.svg";
+import Logo from "../../assets/logo-2.svg";
 
 export const Header = () => {
   return (
     <header>
-      <img src="/logo-2.png" alt="Logo ponto encantado" />
+      <img src={Logo} alt="Logo ponto encantado" />
       <nav>
         <a href="/">Inicio</a>
         <a href="/store">Loja</a>
