@@ -1,6 +1,6 @@
 import "./style.css";
 import Whatsapp from "../../assets/whatsapp.svg";
-import Logo from "../../assets/logo-2.svg";
+import Logo from "../../assets/logo-2.png";
 
 export const Header = () => {
   return (
