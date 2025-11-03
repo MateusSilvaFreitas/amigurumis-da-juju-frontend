@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+header img {
+  height: 15vh;
+}
+
+nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.whatsapp {
+  display: flex;
+}
+
+.whatsapp img {
+  width: 25px;
+  height: 25px;
+}
