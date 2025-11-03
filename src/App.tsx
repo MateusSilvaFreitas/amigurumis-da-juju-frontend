@@ -10,7 +10,7 @@ function App() {
       <div className="geral-container">
         <Header />
         <Routes>
-          <Route path="/amigurumis-da-juju-frontend" element={<Homepage />} />
+          <Route path="/" element={<Homepage />} />
           <Route path="/store" element={<p>Store Page</p>} />
         </Routes>
         <Footer />
