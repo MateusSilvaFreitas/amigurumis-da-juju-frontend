@@ -12,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Homepage />} />
           <Route path="/store" element={<p>Store Page</p>} />
+          <Route path="/amigurumis-da-juju-frontend" element={<p>Teste</p>} />
         </Routes>
         <Footer />
       </div>
