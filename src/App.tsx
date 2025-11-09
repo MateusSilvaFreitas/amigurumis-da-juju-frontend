@@ -8,14 +8,14 @@ function App() {
   return (
     <>
       <div className="geral-container">
-        <Header />
         <HashRouter>
+          <Header />
           <Routes>
             <Route index element={<Homepage />} />
             <Route path="/store" element={<p>Store Page</p>} />
           </Routes>
+          <Footer />
         </HashRouter>
-        <Footer />
       </div>
     </>
   );
