@@ -1,0 +1,22 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+}
+
+.products-slider {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .products-slider {
+    width: 300px;
+    overflow-y: scroll;
+  }
+}

@@ -1,0 +1,55 @@
+.img-amigurumi {
+  height: 40vh;
+  border-radius: 8px;
+}
+
+.about-products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.about-products article {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.about-products ul {
+  list-style: none;
+  padding-left: 1.5em;
+}
+
+.about-products ul li::marker {
+  content: "✔";
+  color: #bf8776;
+  font-size: 1.2em;
+}
+
+.about-products ul li {
+  padding-left: 1em;
+  margin-top: 5px;
+}
+
+.about-products article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 2rem;
+}
+
+@media (max-width: 768px) {
+  .about-products {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+  .about-products article {
+    width: 80%;
+  }
+}
